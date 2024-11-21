@@ -1,10 +1,13 @@
 import "./App.css"
 import Form from "./components/Form";
+import InputChecker from "./components/InputChecker";
 import PasswordChecker from "./components/PasswordChecker";
+import Marksheet from "./components/MarkSheet";
 // import Accordian from "./components/Accordian";
 // import Cards from "./components/cards";
 // import Examplestate from "./components/Examplestate";
 import Post from "./components/Post";
+import QuizApp from "./components/Quiz";
 // import Pricing from "./components/pricing";
 
 function App(){
@@ -19,6 +22,9 @@ function App(){
     <Post/>
     <PasswordChecker/>
     <Form/>
+    <InputChecker/>
+   <Marksheet/>
+   <QuizApp/>
     </>
   );
 }
