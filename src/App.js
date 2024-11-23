@@ -8,6 +8,7 @@ import Marksheet from "./components/MarkSheet";
 // import Examplestate from "./components/Examplestate";
 import Post from "./components/Post";
 import QuizApp from "./components/Quiz";
+import MovieBooking from "./components/MovieBooking";
 // import Pricing from "./components/pricing";
 
 function App(){
@@ -25,6 +26,7 @@ function App(){
     <InputChecker/>
    <Marksheet/>
    <QuizApp/>
+   <MovieBooking/>
     </>
   );
 }

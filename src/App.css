@@ -21,3 +21,54 @@
 .silver-card {
   background-color: #967c56a6;
 }
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .ticket {
+            width: 350px;
+            background-color: #b4b18beb;
+            border: 5px dashed #171616;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .ticket-header {
+          font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            font-size: 45px;
+            font-weight: bold;
+            color: #030202;
+        }
+        .ticket-details {
+            margin-top: 20px;
+        }
+        .detail {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .detail span {
+            font-size: 20px;
+        }
+        .qr-code {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .qr-code img {
+            width: 150px;
+            height: 120px;
+        }
+        .ticket-footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 30px;
+            color: #494747;
+        }
