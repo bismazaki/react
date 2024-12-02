@@ -10,6 +10,8 @@ import Post from "./components/Post";
 import QuizApp from "./components/Quiz";
 import MovieBooking from "./components/MovieBooking";
 // import Pricing from "./components/pricing";
+import Materialtext from "./components/Materialtext";
+import Materialform from "./components/Materialform";
 
 function App(){
   return(
@@ -27,6 +29,8 @@ function App(){
    <Marksheet/>
    <QuizApp/>
    <MovieBooking/>
+   <Materialtext/>
+   <Materialform/>
     </>
   );
 }
