@@ -12,6 +12,7 @@ import MovieBooking from "./components/MovieBooking";
 // import Pricing from "./components/pricing";
 import Materialtext from "./components/Materialtext";
 import Materialform from "./components/Materialform";
+import PizzaOrder from "./components/PizzzaOrder";
 
 function App(){
   return(
@@ -31,6 +32,7 @@ function App(){
    <MovieBooking/>
    <Materialtext/>
    <Materialform/>
+   <PizzaOrder/>
     </>
   );
 }
