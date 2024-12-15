@@ -1,5 +1,7 @@
 import "./App.css"
-import Login from "./components/Login";
+
+// import Table from "./components/Table";
+// import Login from "./components/Login";
 // import Form from "./components/Form";
 // import InputChecker from "./components/InputChecker";
 // import PasswordChecker from "./components/PasswordChecker";
@@ -16,6 +18,7 @@ import Login from "./components/Login";
 // import PizzaOrder from "./components/PizzzaOrder";
 // import BottomNav from "./components/BottomNav";
 // import TodoList from "./components/TodoList";
+ import Quizapp from "./components/Quizapp";
 
 function App(){
   return(
@@ -38,7 +41,9 @@ function App(){
    <PizzaOrder/>
    <BottomNav/>
    <TodoList/> */}
-   <Login/>
+   {/* <Login/> */}
+   {/* <Table/> */}
+  <Quizapp/>
     </>
   );
 }

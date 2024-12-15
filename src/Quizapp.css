@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, rgb(9, 3, 83) 0%, rgba(5, 8, 80, 0.872) 1%, rgb(2, 16, 73) 35%, rgb(81, 67, 88) 66%, rgba(45, 49, 82, 0.768) 76%, rgb(69, 80, 102) 100%);
+    background-color: navy;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .quiz-title {
+    text-align: center;
+    color: #e8e8e8; /* Make sure the color contrast is good */
+    font-size: clamp(30px, 5vw, 50px);
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(193, 151, 151, 0.5);
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+  }
+  h4 {
+    color: #181717;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background: rgba(255, 255, 255, 0.799);
+    backdrop-filter: blur(10px);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(153, 191, 185, 0.869);
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  /* Question Section */
+  form > div {
+    margin-bottom: 1.8rem;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-left: 0.8rem;
+    color: #333;
+  }
+  
+  input[type="radio"] {
+    accent-color: #6a11cb;
+    transform: scale(1.4);
+    margin-right: 0.5rem;
+  }
+  
+  /* Button Styling */
+  button {
+    display: block;
+    margin: 1.5rem auto;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Typography Styling */
+  .MuiTypography-h4 {
+    text-align: center;
+    margin: 0.8rem 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(196, 46, 46, 0.2);
+  }
+  
