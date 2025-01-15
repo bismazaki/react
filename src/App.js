@@ -1,4 +1,10 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+import ReadProduct from "./components/ReadProduct";
+import CreateProduct from "./components/CreateProduct";
 
 // import Table from "./components/Table";
 // import Login from "./components/Login";
@@ -18,7 +24,7 @@ import "./App.css"
 // import PizzaOrder from "./components/PizzzaOrder";
 // import BottomNav from "./components/BottomNav";
 // import TodoList from "./components/TodoList";
- import Quizapp from "./components/Quizapp";
+//  import Quizapp from "./components/Quizapp";
 
 function App(){
   return(
@@ -41,9 +47,15 @@ function App(){
    <PizzaOrder/>
    <BottomNav/>
    <TodoList/> */}
-   {/* <Login/> */}
-   {/* <Table/> */}
-  <Quizapp/>
+   {/* <Login/>  */}
+    {/* <Table/>
+  <Quizapp/> */}
+  <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<CreateProduct/>}/>
+    <Route path="/display-products" element={<ReadProduct/>}/>
+  </Routes>
+  </BrowserRouter>
     </>
   );
 }

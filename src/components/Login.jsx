@@ -1,10 +1,12 @@
-import React from 'react'
+import React ,{useState} from 'react'
 import '../Login.css'
 import { Checkbox, FormControl, FormControlLabel, TextField, Typography, Button } from '@mui/material'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { Facebook, GitHub, Google, Twitter } from '@mui/icons-material';
 
 const Login = () => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   return (
     <>
       <div className="container">
